@@ -1,0 +1,15 @@
+{
+  "name": "human-readable-db-migrations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js -p test-data/migrations --start 1686121563412"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fast-glob": "^3.3.1"
+  }
+}
